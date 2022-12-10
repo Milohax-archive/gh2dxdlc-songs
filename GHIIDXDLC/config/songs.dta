@@ -1,50 +1,21 @@
-(exile
-   (name "Exile")
-   (artist "Soilwork")
-   (caption performed_by)
-   (song
-     (name        songs/exile/exile)
-     (tracks ((guitar (2 3)) (bass 4) ))
-     (pans        ( -1.0  1.0 -1.0  1.0  0.0 ))
-     (vols        ( -3.0 -3.0 -3.0 -3.0  0.0 ))
-     (cores       ( -1   -1    1    1   -1   ))
-     (midi_file songs/exile/exile.mid)
-   )
-   ;(bank sfx/song_default_bank) ;not using at the moment
-   (anim_tempo kTempoMedium)
-   (preview 50075 75978)
-   (quickplay
-      (character_outfit goth2)
-      (guitar lespaul)
-      (venue theatre)
-   )
-  
-)
-(sept
-   (name "Sept")
-   (artist "Pleymo")
-   (caption performed_by)
-   (song
-     (name        songs/sept/sept)
-     (tracks      ((guitar (2 3)) (bass (4 5)) ))
-     (pans        ( -1.0  1.0 -1.0  1.0 -1.0  1.0 ))
-     (vols        ( -2.5 -2.5 -3.5 -3.5 -2.5 -2.5))
-     (cores       ( -1   -1    1    1   -1   -1))
-     (midi_file songs/sept/sept.mid)
-   )
-   ;(bank sfx/song_default_bank) ;not using at the moment
-   (anim_tempo kTempoMedium)
-   (preview 57500 84700)
-   (quickplay
-      (character_outfit rock2)
-      (guitar flying_v)
-      (venue theatre)
-   )
-   
-)
 (burythehatchet
    (name "Bury The Hatchet")
-   (artist "Protest The Hero")
+   (artist
+      {do
+         {set $songalbum "Kezia"}
+         {set $author "Harmonix"}
+         {set $songyear "2005"}
+         {set $songgenre "Progressive Metal"}
+         {set $songorigin "Guitar Hero II DLC"}
+         {set $songduration 199592}
+         {set $songguitarrank 6}
+         {set $songbassrank 0}
+         {set $songrhythmrank 0}
+         {set $songdrumrank 0}
+         {set $songartist "Protest The Hero"}
+      }
+      "Protest The Hero"
+   )
    (caption performed_by)
    (song
      (name        songs/burythehatchet/burythehatchet)
@@ -67,7 +38,22 @@
 )
 (detonation
    (name "Detonation")
-   (artist "Trivium")
+   (artist
+      {do
+         {set $songalbum "The Crusade"}
+         {set $author "Harmonix"}
+         {set $songyear "2006"}
+         {set $songgenre "Thrash Metal"}
+         {set $songorigin "Guitar Hero II DLC"}
+         {set $songduration 269919}
+         {set $songguitarrank 7}
+         {set $songbassrank 0}
+         {set $songrhythmrank 0}
+         {set $songdrumrank 0}
+         {set $songartist "Trivium"}
+      }
+      "Trivium"
+   )
    (song
      (name        songs/detonation/detonation)
      (tracks ((guitar (2 3)) (bass 4) ))
@@ -85,9 +71,61 @@
       (venue fest)
    )
 )
+(exile
+   (name "Exile")
+   (artist
+      {do
+         {set $songalbum "Sworn to a Great Divide"}
+         {set $author "Harmonix"}
+         {set $songyear "2007"}
+         {set $songgenre "Melodic Death Metal"}
+         {set $songorigin "Guitar Hero II DLC"}
+         {set $songduration 226187}
+         {set $songguitarrank 2}
+         {set $songbassrank 0}
+         {set $songrhythmrank 0}
+         {set $songdrumrank 0}
+         {set $songartist "Soilwork"}
+      }
+      "Soilwork"
+   )
+   (caption performed_by)
+   (song
+     (name        songs/exile/exile)
+     (tracks ((guitar (2 3)) (bass 4) ))
+     (pans        ( -1.0  1.0 -1.0  1.0  0.0 ))
+     (vols        ( -3.0 -3.0 -3.0 -3.0  0.0 ))
+     (cores       ( -1   -1    1    1   -1   ))
+     (midi_file songs/exile/exile.mid)
+   )
+   ;(bank sfx/song_default_bank) ;not using at the moment
+   (anim_tempo kTempoMedium)
+   (preview 50075 75978)
+   (quickplay
+      (character_outfit goth2)
+      (guitar lespaul)
+      (venue theatre)
+   )
+  
+)
 (exsandohs
    (name "Ex's and Oh's")
-   (artist "Atreyu")
+   (artist
+      {do
+         {set $songalbum "A Death-Grip On Yesterday"}
+         {set $author "Harmonix"}
+         {set $songyear "2006"}
+         {set $songgenre "Melodic Metalcore"}
+         {set $songorigin "Guitar Hero II DLC"}
+         {set $songduration 214406}
+         {set $songguitarrank 3}
+         {set $songbassrank 0}
+         {set $songrhythmrank 0}
+         {set $songdrumrank 0}
+         {set $songartist "Atreyu"}
+      }
+      "Atreyu"
+   )
    (song
      (name        songs/exsandohs/exsandohs)
      (tracks ((guitar (2 3)) (bass 4) ))
@@ -107,7 +145,22 @@
 )
 (famouslastwords
    (name "Famous Last Words")
-   (artist "My Chemical Romance")
+   (artist
+      {do
+         {set $songalbum "The Black Parade"}
+         {set $author "Harmonix"}
+         {set $songyear "2006"}
+         {set $songgenre "Alternative Rock"}
+         {set $songorigin "Guitar Hero II DLC"}
+         {set $songduration 311220}
+         {set $songguitarrank 3}
+         {set $songbassrank 0}
+         {set $songrhythmrank 0}
+         {set $songdrumrank 0}
+         {set $songartist "My Chemical Romance"}
+      }
+      "My Chemical Romance"
+   )
    (caption performed_by)
    (song
      (name        songs/famouslastwords/famouslastwords)
@@ -127,52 +180,98 @@
    )
   
 )
-(teenagers
-   (name "Teenagers")
-   (artist "My Chemical Romance")
+(memoriesofthe
+   (name "Memories of the Grove")
+   (artist
+      {do
+         {set $songalbum "II"}
+         {set $author "Harmonix"}
+         {set $songyear "2007"}
+         {set $songgenre "Southern Metal"}
+         {set $songorigin "Guitar Hero II DLC"}
+         {set $songduration 256765}
+         {set $songguitarrank 4}
+         {set $songbassrank 0}
+         {set $songrhythmrank 0}
+         {set $songdrumrank 0}
+         {set $songartist "Maylene and the Sons of Disaster"}
+      }
+      "Maylene and the Sons of Disaster"
+   )
    (caption performed_by)
    (song
-     (name   songs/teenagers/teenagers)
-     (tracks ((guitar (2 3)) (bass 4) ))
-     (pans   ( -1.0  1.0 -1.0  1.0  0.0 ))
-     (vols   ( -2.5 -2.5 -2.5 -2.5 -1.0 ))
-     (cores  ( -1   -1    1    1   -1   ))
-     (midi_file songs/teenagers/teenagers.mid)
-   )
-   ;(bank sfx/song_default_bank) ;not using at the moment
-   (anim_tempo kTempoFast)
-   (preview 39500 55000)
-   (quickplay
-      (character_outfit alterna1)
-      (guitar sg)
-      (venue fest)
-   )
-)
-(thisishowidisappear
-   (name "This Is How I Disappear")
-   (artist "My Chemical Romance")
-   (caption performed_by)
-   (song
-     (name        songs/thisishowidisappear/thisishowidisappear)
+     (name        songs/memoriesofthe/memoriesofthe)
      (tracks ((guitar (2 3)) (bass 4) ))
      (pans        ( -1.0  1.0 -1.0  1.0  0.0 ))
-     (vols        ( -2.5 -2.5 -3.0 -3.0 -0.0 ))
+     (vols        ( -3.0 -3.0 -3.0 -3.0  0.0 ))
      (cores       ( -1   -1    1    1   -1   ))
-     (midi_file songs/thisishowidisappear/thisishowidisappear.mid)
+     (midi_file songs/memoriesofthe/memoriesofthe.mid)
    )
    ;(bank sfx/song_default_bank) ;not using at the moment
-   (anim_tempo kTempoFast)
-   (preview 65500 89100)
+   (anim_tempo kTempoMedium)
+   (preview 50075 75978)
    (quickplay
-      (character_outfit punk1)
+      (character_outfit metal1)
+      (guitar lespaul)
+      (venue theatre)
+   )
+  
+)
+(sept
+   (name "Sept")
+   (artist
+      {do
+         {set $songalbum "Alphabet Prison"}
+         {set $author "Harmonix"}
+         {set $songyear "2004"}
+         {set $songgenre "Metal"}
+         {set $songorigin "Guitar Hero II DLC"}
+         {set $songduration 239678}
+         {set $songguitarrank 3}
+         {set $songbassrank 0}
+         {set $songrhythmrank 0}
+         {set $songdrumrank 0}
+         {set $songartist "Pleymo"}
+      }
+      "Pleymo"
+   )
+   (caption performed_by)
+   (song
+     (name        songs/sept/sept)
+     (tracks      ((guitar (2 3)) (bass (4 5)) ))
+     (pans        ( -1.0  1.0 -1.0  1.0 -1.0  1.0 ))
+     (vols        ( -2.5 -2.5 -3.5 -3.5 -2.5 -2.5))
+     (cores       ( -1   -1    1    1   -1   -1))
+     (midi_file songs/sept/sept.mid)
+   )
+   ;(bank sfx/song_default_bank) ;not using at the moment
+   (anim_tempo kTempoMedium)
+   (preview 57500 84700)
+   (quickplay
+      (character_outfit rock2)
       (guitar flying_v)
-      (venue small2)
+      (venue theatre)
    )
    
 )
 (sindocumentos
    (name "Sin Documentos")
-   (artist "Los Rodriguez")
+   (artist
+      {do
+         {set $songalbum "Sin Documentos"}
+         {set $author "Harmonix"}
+         {set $songyear "1993"}
+         {set $songgenre "Pop"}
+         {set $songorigin "Guitar Hero II DLC"}
+         {set $songduration 284812}
+         {set $songguitarrank 4}
+         {set $songbassrank 0}
+         {set $songrhythmrank 0}
+         {set $songdrumrank 0}
+         {set $songartist "Los Rodriguez"}
+      }
+      "Los Rodriguez"
+   )
    (caption performed_by)
    (song
      (name        songs/sindocumentos/sindocumentos)
@@ -193,31 +292,24 @@
    )
    
 )
-(memoriesofthe
-   (name "Memories of the Grove")
-   (artist "Maylene and the Sons of Disaster")
-   (caption performed_by)
-   (song
-     (name        songs/memoriesofthe/memoriesofthe)
-     (tracks ((guitar (2 3)) (bass 4) ))
-     (pans        ( -1.0  1.0 -1.0  1.0  0.0 ))
-     (vols        ( -3.0 -3.0 -3.0 -3.0  0.0 ))
-     (cores       ( -1   -1    1    1   -1   ))
-     (midi_file songs/memoriesofthe/memoriesofthe.mid)
-   )
-   ;(bank sfx/song_default_bank) ;not using at the moment
-   (anim_tempo kTempoMedium)
-   (preview 50075 75978)
-   (quickplay
-      (character_outfit metal1)
-      (guitar lespaul)
-      (venue theatre)
-   )
-  
-)
 (stateofmass
    (name "State of Massachusetts")
-   (artist "Dropkick Murphys")
+   (artist
+      {do
+         {set $songalbum "The Meanest of Times"}
+         {set $author "Harmonix"}
+         {set $songyear "2007"}
+         {set $songgenre "Celtic Punk"}
+         {set $songorigin "Guitar Hero II DLC"}
+         {set $songduration 235765}
+         {set $songguitarrank 5}
+         {set $songbassrank 0}
+         {set $songrhythmrank 0}
+         {set $songdrumrank 0}
+         {set $songartist "Dropkick Murphys"}
+      }
+      "Dropkick Murphys"
+   )
    (song
      (name        songs/stateofmass/stateofmass)
      (tracks ((guitar (2 3)) (bass 4) ))
@@ -236,9 +328,97 @@
    )
 
 )
+(teenagers
+   (name "Teenagers")
+   (artist
+      {do
+         {set $songalbum "The Black Parade"}
+         {set $author "Harmonix"}
+         {set $songyear "2006"}
+         {set $songgenre "Blues Rock"}
+         {set $songorigin "Guitar Hero II DLC"}
+         {set $songduration 160825}
+         {set $songguitarrank 2}
+         {set $songbassrank 0}
+         {set $songrhythmrank 0}
+         {set $songdrumrank 0}
+         {set $songartist "My Chemical Romance"}
+      }
+      "My Chemical Romance"
+   )
+   (caption performed_by)
+   (song
+     (name   songs/teenagers/teenagers)
+     (tracks ((guitar (2 3)) (bass 4) ))
+     (pans   ( -1.0  1.0 -1.0  1.0  0.0 ))
+     (vols   ( -2.5 -2.5 -2.5 -2.5 -1.0 ))
+     (cores  ( -1   -1    1    1   -1   ))
+     (midi_file songs/teenagers/teenagers.mid)
+   )
+   ;(bank sfx/song_default_bank) ;not using at the moment
+   (anim_tempo kTempoFast)
+   (preview 39500 55000)
+   (quickplay
+      (character_outfit alterna1)
+      (guitar sg)
+      (venue fest)
+   )
+)
+(thisishowidisappear
+   (name "This Is How I Disappear")
+   (artist
+      {do
+         {set $songalbum "The Black Parade"}
+         {set $author "Harmonix"}
+         {set $songyear "2006"}
+         {set $songgenre "Alternative Rock"}
+         {set $songorigin "Guitar Hero II DLC"}
+         {set $songduration 236062}
+         {set $songguitarrank 6}
+         {set $songbassrank 0}
+         {set $songrhythmrank 0}
+         {set $songdrumrank 0}
+         {set $songartist "My Chemical Romance"}
+      }
+      "My Chemical Romance"
+   )
+   (caption performed_by)
+   (song
+     (name        songs/thisishowidisappear/thisishowidisappear)
+     (tracks ((guitar (2 3)) (bass 4) ))
+     (pans        ( -1.0  1.0 -1.0  1.0  0.0 ))
+     (vols        ( -2.5 -2.5 -3.0 -3.0 -0.0 ))
+     (cores       ( -1   -1    1    1   -1   ))
+     (midi_file songs/thisishowidisappear/thisishowidisappear.mid)
+   )
+   ;(bank sfx/song_default_bank) ;not using at the moment
+   (anim_tempo kTempoFast)
+   (preview 65500 89100)
+   (quickplay
+      (character_outfit punk1)
+      (guitar flying_v)
+      (venue small2)
+   )
+   
+)
 (youshouldbeashamed
    (name "You Should Be Ashamed Of Myself")
-   (artist "The Bled")
+   (artist
+      {do
+         {set $songalbum "Silent Treatment"}
+         {set $author "Harmonix"}
+         {set $songyear "2007"}
+         {set $songgenre "Hardcore"}
+         {set $songorigin "Guitar Hero II DLC"}
+         {set $songduration 154645}
+         {set $songguitarrank 6}
+         {set $songbassrank 0}
+         {set $songrhythmrank 0}
+         {set $songdrumrank 0}
+         {set $songartist "The Bled"}
+      }
+      "The Bled"
+   )
    (song
      (name        songs/youshouldbeashamed/youshouldbeashamed)
      (tracks ((guitar (2 3)) (bass 4) ))
